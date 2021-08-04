@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAG/1l45pB9UCQoEChkrLpDgAAAAACAAAAAAAQZgAAAAEAACAAAABuKwYqn+Fi1ojO4Wb1XRcaT8BuRQ8V9QAKw6cWgRslTQAAAAAOgAAAAAIAACAAAADcMoiTCaxHd4i+55P2pt/KOnxuj2+HUQgHeDmhNY1uhYAAAADsY0A0DK2LpdlpMNoYLT7kdzeR0mgTdYOu9qlVOsq5zpl5//h7mgS0YR7FHZQYVCcrQEyAVIXZkJMLV6JA2ySwe52ZWa4MTmMsDhkl9IpquZKiuRhiIx7/1+mgYU86WuAE/YgM+UYpaID5TpZEv/1CvBP3jA4G8AjWpfxNqFGSQ0AAAAABEqyvtNSylKJt9cZO2Yg/WhT4ggRrOmDpj2cS4f1fGecb6A3cuVNGDTzjYL3yaeOZmEhjrJiGB+LpxGZxOAWZ</EncryptedPassword>
+    <History>True|2021-06-23T14:46:00.5334823Z;True|2021-06-15T16:22:37.8431990+01:00;True|2021-06-15T16:19:55.5828752+01:00;True|2021-06-15T09:58:26.5735467+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:to-dolistdbserver.database.windows.net,1433%3bInitial Catalog=ToDo List_db%3bUser Id=Reechychukz%40to-dolistdbserver%3bPassword=abateteO1#</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ToDo_List.Data.ToDoDBContext">
+      <Value>Data Source=tcp:to-dolistdbserver.database.windows.net,1433%3bInitial Catalog=ToDo List_db%3bUser Id=Reechychukz%40to-dolistdbserver%3bPassword=abateteO1#</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

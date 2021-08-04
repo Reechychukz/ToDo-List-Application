@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<body style="background-color : #bbcbe5">
+
+<div class="container-fluid">
+    <div class="row pt-1">
+        <div class="col-6"  style="background-image: url(/wwwroot/images/4890375.jpg); background-size:cover">
+            <img src="~/images/4890375.jpg" class="img" alt="My image" style="float:left;width:100%"/>
+        </div>
+        
+        <div class="col-6">
+            <div class="col-md-auto" style="text-align:justify">
+                <h1 class="pt-4"> MyToDo</h1>
+                <p class="mt-5">"It's not enough to be busy, so are the ants. The question is, what are we busy about?" -- Henry David Thoreau</p>
+                <p class="mt-4">
+
+
+                    Be the Sole owner of your time today, with MyToDo
+
+
+                </p>
+                <a asp-controller="Item" asp-action="Index" class="btn btn-primary" >
+                    Get Started
+                </a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+</body>
